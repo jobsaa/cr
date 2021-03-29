@@ -1,0 +1,795 @@
+@import url("css.css");
+@import url("open-iconic-bootstrap.min.css");
+@import url("bootstrap.min.css");
+
+
+/*
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Dosis', sans-serif;
+
+*/
+
+/* ==========================================================================
+   Global
+   ========================================================================== */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    color: #4A4A4A;
+}
+
+a{
+    font-weight: 400;
+    color: #8674C1;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+a:hover{
+    color: #4A4A4A;
+    text-decoration: none;
+}
+
+strong, b{
+    font-weight: 700;
+    color: #8674C1;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    color: #8674C1;
+}
+
+.w-15{
+    width: 15% !important;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.intro-title h1,
+.intro-title h2{
+    padding: 0 0 17px 0;
+    background: url("line-bg.png") bottom center no-repeat;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #8674C1;
+}
+
+/* ==========================================================================
+   Header Top
+   ========================================================================== */
+
+.header-top{
+    background-color: #8674C1;
+    font-size: 0.9375rem;
+    color: #ffffff;
+}
+
+.header-languages,
+.header-languages a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.header-languages a:hover,
+.header-languages a.active{
+    color: #2C3A50;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.header{
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.3);
+}
+
+.header .nav-link{
+    padding: 15px 12px !important;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #2C3A50;
+    text-transform: uppercase;
+}
+
+.header .active .nav-link,
+.header .nav-link:hover,
+.header .nav-link:focus{
+    color: #8674C1;
+}
+
+.header #menu-item-264 .nav-link,
+.header #menu-item-353 .nav-link,
+.header #menu-item-354 .nav-link,
+.header #menu-item-273 .nav-link{
+    color: #2C3A50;
+}
+
+.header .dropdown-menu{
+    border-radius: 0;
+    background-color: #fff;
+}
+
+.header .telephone{
+    display: inline-block;
+    padding: 4px 0 0 0;
+    font-size: 1.1325rem;
+    font-weight: 400;
+    color: #8674C1;
+}
+
+/* ==========================================================================
+   Home Intro
+   ========================================================================== */
+
+.home-intro{
+    border-bottom: 3px solid #FCD66B;
+}
+
+.home-intro .over{
+    width: 100%;
+    bottom: 5rem;
+}
+
+.home-intro .text{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2C3A50;
+}
+
+.btn-white-round{
+    padding: 12px 35px;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    background: #ffffff;
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-align: center;
+    color: #8674C1;
+}
+
+.btn-white-round:hover{
+    background: #8674C1;
+    color: #ffffff;
+}
+
+/* ==========================================================================
+   Home About
+   ========================================================================== */
+
+.home-about {
+    background: url("about-bg.png") top right no-repeat;
+}
+
+.home-about .text-top .text{
+    padding: 0 3rem;
+}
+
+.home-about .text-bottom h3{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #8674C1;
+}
+
+.home-about .text-bottom .reliable{
+    padding: 0 0 0 75px;
+    background: url("icon-team.png") left center no-repeat;
+}
+
+.home-about .text-bottom .dalmatia{
+    padding: 0 0 0 60px;
+    background: url("icon-marker.png") left center no-repeat;
+}
+
+/* ==========================================================================
+   Home Numbers
+   ========================================================================== */
+
+.home-numbers{
+    background-color: #8674C1;
+    text-align: center;
+}
+
+.home-numbers .row div{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-right: 1px solid rgba(255,255,255,0.15);
+}
+
+.home-numbers .row div:last-child{
+    border-right: none;
+}
+
+.home-numbers .row div h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.home-numbers .row div span{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+/* ==========================================================================
+   Home What
+   ========================================================================== */
+
+.home-what-inside{
+    min-height: 170px;
+    padding: 30px 20px 5px 20px;
+    border: 1px solid #FCD66B;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+}
+
+.home-what-inside .counter{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.75rem;
+    font-weight: 500;
+    color: #FCD66B;
+}
+
+.home-what-inside h3{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #8674C1;
+}
+
+/* ==========================================================================
+   Home Know
+   ========================================================================== */
+
+.home-know{
+    background-color: #FCFBF9;
+}
+
+/* ==========================================================================
+   Home News
+   ========================================================================== */
+
+.home-news{
+    text-align: center;
+}
+
+.home-news .card{
+    border-radius: 0;
+}
+
+.home-news .card-img-top span{
+    width: auto;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    padding: 4px 10px;
+    background-color: #8674C1;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.home-news a .card-title{
+    font-family: 'Dosis';
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #8674C1;
+}
+
+.home-news a:hover .card-title{
+    color: #4A4A4A;
+}
+
+.home-news a .card-text{
+    ont-family: 'Montserrat', sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    color: #4A4A4A;
+}
+
+.home-news .card-footer{
+    padding: 0 0 10px 0;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #8674C1;
+}
+
+.home-news a:hover .card-footer{
+    color: #4A4A4A;
+}
+
+.home-news .more-link{
+    padding: 12px 35px;
+    border: 1px solid #8674C1;
+    border-radius: 30px;
+    background-color: #8674C1;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.home-news .more-link:hover {
+    background-color: #FFFFFF;
+    color: #8674C1;
+}
+
+/* ==========================================================================
+   Home Testimonial
+   ========================================================================== */
+
+.home-testimonial{
+    overflow: hidden;
+    background-color: #8674C1;
+}
+
+.home-testimonial .img-holder{
+    overflow: hidden;
+}
+
+.home-testimonial .img-holder .over{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background-image: url("test-bg-left.png"), url("test-bg-right.png");
+    background-position: bottom left, bottom right;
+    background-repeat: no-repeat;
+}
+
+.home-testimonial .data{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.home-testimonial h2{
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.home-testimonial .text{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.home-testimonial h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3125rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* ==========================================================================
+   Home references
+   ========================================================================== */
+
+.home-references .container-fluid{
+    padding: 0;
+}
+
+.home-references-inside{
+    border: 0.5px solid #ffffff;
+    cursor: pointer;
+}
+
+.home-references-inside .over{
+    padding: 15px 30px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #8674C1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    opacity: 0;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.home-references-inside:hover .over{
+    opacity: 1;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer{
+    background-color: rgba(243,237,231,0.3);
+}
+
+/* ==========================================================================
+   Footer Form
+   ========================================================================== */
+
+.footer-form{
+    padding: 50px 0 0 0;
+}
+
+#contact-form .alert{
+    display: none;
+}
+
+#contact-form .alert strong{
+    color: #4A4A4A;
+}
+
+#contact-form label{
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: #4A4A4A;
+}
+
+#contact-form .form-group{
+    width: 100%;
+}
+
+#contact-form .form-control,
+#contact-form textarea{
+    border-color: #8674C1;
+    font-size: 0.9375rem;
+}
+
+#contact-form textarea{
+    width: 100%;
+    height: 122px;
+}
+
+#contact-form .btn-submit{
+    padding: 12px 35px;
+    border: 1px solid #8674C1;
+    border-radius: 30px;
+    background-color: #8674C1;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+#contact-form .btn-submit:hover{
+    background-color: #FFFFFF;
+    color: #8674C1;
+}
+
+.form-control.error-element,
+textarea.form-control.error-element{
+    background: none repeat scroll 0 0 #FDF7F7;
+    box-shadow: none;
+    color: #f00;
+}
+
+#contact-form label.error-element{
+    color: #f00;
+}
+
+.form-control.error-element::-webkit-input-placeholder{
+    color: #f00;
+}
+
+.form-control.error-element::-moz-placeholder{
+    color: #f00;
+}
+
+.form-control.error-element:-ms-input-placeholder{
+    color: #f00;
+}
+
+.form-control.error-element:-moz-placeholder{
+    color: #f00;
+}
+
+/* ==========================================================================
+   Footer Bottom
+   ========================================================================== */
+
+.footer-bottom{
+    overflow: hidden;
+    padding: 90px 0 0 0;
+    background: url("footer-bg.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.footer-bottom-inside{
+    padding: 70px 0 0 0;
+    background-color: #8674C1;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.footer .back-top {
+    width: 100px;
+    top: 41px;
+    left: 50%;
+    padding: 70px 0 0 0;
+    margin: 0 0 0 -50px;
+    background: url("icon-arrow.png") top center no-repeat;
+    font-size: 1.125rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    z-index: 30;
+}
+
+.footer-bottom-inside h4{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.footer-bottom-inside a{
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.footer-bottom-inside a:hover{
+    color: #4A4A4A;
+}
+
+.fb{
+    height: 40px;
+    margin: 0 30px 0 0;
+    padding: 0 0 0 45px;
+    background: url("icon-facebook.png") left center no-repeat;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.gp{
+    height: 40px;
+    margin: 0 30px 0 0;
+    padding: 0 0 0 45px;
+    background: url("icon-google.png") left center no-repeat;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.footer-bottom-under{
+    border-top: 1px solid rgba(44,58,80,0.2);
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.footer-bottom-under a{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.single-item h1{
+}
+
+.single-item h1 a{
+}
+
+.single-item time{
+    font-size: 0.875rem;
+}
+
+.single-item .wp-block-columns.has-2-columns{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single-item .wp-block-columns.has-2-columns .wp-block-column{
+    flex: 0 0 auto;
+    width: auto;
+    padding: 0 10px;
+    -ms-flex-positive: 1;
+    align-self: center !important;
+}
+
+/* Archive */
+.references-category .intro-title .text{
+    padding: 20px 0 17px 0;
+    background: url("line-bg.png") bottom center no-repeat;
+}
+
+.references-category .home-references .intro-title{
+    display: none;
+}
+
+.references-category .row div h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #4A4A4A;
+}
+
+
+/* ==========================================================================
+   Pagination
+   ========================================================================== */
+
+.post-pagination .screen-reader-text{
+    display: none;
+}
+
+.post-pagination .nav-links{
+    width: 100%;
+    text-align: center;
+}
+
+.post-pagination .page-numbers{
+    display: inline-block;
+    padding: .5rem .875rem;
+    background-color: #fff;
+    border: 1px solid #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    line-height: 1.25;
+    color: #FF5733;
+}
+
+.post-pagination .page-numbers:hover,
+.post-pagination .page-numbers.current{
+    background-color: #FF5733;
+    color: #fff;
+}
+
+/* ==========================================================================
+   Aside
+   ========================================================================== */
+
+
+aside h2{
+    font-family: 'Georgia', sans-serif;
+    font-size: 1.475rem;
+    color: #FF5733;
+}
+
+aside a h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+aside a:hover h3{
+    color: #FF5733;
+}
+
+/* ==========================================================================
+   Media query
+   ========================================================================== */
+
+@media (max-width: 1440px){}
+
+@media (max-width: 1366px){}
+
+@media (max-width: 1024px){}
+
+@media (max-width: 800px){
+
+    /*  Home intro */
+    .home-intro .over{
+        bottom: 1rem;
+    }
+
+    .home-intro .text{
+        font-size: 1rem;
+    }
+
+    /* Navigation */
+    .header .navbar{
+        display: block;
+        text-align: right;
+        padding-bottom: 10px !important;
+    }
+
+    .header .navbar-toggler{
+        padding: 6px 15px;
+        border: none;
+        color: #8674C1;
+    }
+
+    .header .navbar-collapse{
+        border-bottom: 1px solid #8674C1;
+    }
+
+    .header .nav-link{
+        padding: 10px 15px !important;
+    }
+
+}
+
+@media (max-width: 600px){
+
+    /* Navigation */
+    .navbar-brand{
+        width: 100%;
+        margin: 0;
+        text-align: center !important;
+    }
+
+    .navbar-brand img{
+        display: inline-block !important;
+        position: static !important;
+        margin: 20px 0;
+    }
+
+    .telephone{
+        width: 100%;
+        text-align: center !important;
+    }
+
+    /* Home About */
+    .home-about .text-bottom .dalmatia{
+        padding-left: 75px;
+    }
+
+    /* Home Numbers */
+    .home-numbers .row div:nth-child(2){
+        border: none;
+    }
+
+    /* Home Testimonial */
+    .home-testimonial .img-holder .over{
+        display: none;
+    }
+
+    /* Footer Bottom */
+    .footer-bottom-inside h4{
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    /* Home Intro */
+    .home-intro .over{
+        position: static !important;
+        padding: 30px 0 30px 0;
+    }
+
+    /* Home About */
+    .home-about .text-top .text{
+        padding: 0;
+    }
+
+    .home-about .text-bottom .reliable,
+    .home-about .text-bottom .dalmatia{
+        padding-right: 30px;
+    }
+
+    /* Home Numbers */
+    .home-numbers .row div h3{
+        font-size: 1.85rem;
+    }
+}
+
+@media (max-width: 375px){}

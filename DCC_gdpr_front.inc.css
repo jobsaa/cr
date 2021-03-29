@@ -1,0 +1,48 @@
+.gdpr-pop-up{
+    width: 100%;
+    z-index: 10000;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.75);
+    border-bottom: 1px solid #fff;
+    position: fixed;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.gdpr-pop-up .button-holder{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.gdpr-pop-up .button-holder .accept-gdpr{
+    display: inline-block;
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid #2093D2;
+    background: #2093D2;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.gdpr-pop-up .button-holder .accept-gdpr:hover{
+    background: #FFFFFF;
+    color: #2093D2;
+}
+
+.gdpr-pop-up .button-holder .gdpr-privacy-btn{
+    display: inline-block;
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid #3DBDB6;
+    background: #3DBDB6;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.gdpr-pop-up .button-holder .gdpr-privacy-btn:hover{
+    background: #FFFFFF;
+    color: #3DBDB6;
+}
